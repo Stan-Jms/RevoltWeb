@@ -60,80 +60,74 @@ const AboutPage = () => {
 
   const timeline = [
     {
-      year: '2020',
+      year: '2024',
       title: 'Fondation de ReVOLT',
       description: 'Création de l\'entreprise avec la vision de révolutionner la mobilité électrique.',
       icon: Zap
     },
     {
-      year: '2021',
+      year: '2024',
       title: 'Première version de l\'app',
-      description: 'Lancement de notre application mobile avec 1,000 bornes de recharge.',
+      description: 'Lancement de notre application mobile avec 5 bornes de recharge.',
       icon: Globe
     },
     {
-      year: '2022',
+      year: '2025',
       title: 'Expansion nationale',
-      description: 'Couverture de toute la France avec 5,000 bornes et 10,000 utilisateurs.',
+      description: 'Couverture de toute l\'Ile-de-France avec 500 bornes et 1,000 utilisateurs.',
       icon: MapPin
     },
     {
-      year: '2023',
-      title: 'Innovation technologique',
-      description: 'Intégration de l\'IA pour l\'optimisation des trajets et la prédiction de disponibilité.',
+      year: '2026',
+      title: 'Developpement régionnal de l\'application',
+      description: 'Developpement de l\'application pour les régions de l\'Ile-de-France, Rhone-Alpes, Provence-Alpes-Côte d\'Azur et Gironde.',
       icon: TrendingUp
-    },
-    {
-      year: '2024',
-      title: 'Leader du marché',
-      description: 'Plus de 50,000 utilisateurs actifs et 10,000 bornes de recharge partenaires.',
-      icon: Award
     }
   ]
 
   const teamMembers = [
     {
-      name: 'Marie Dubois',
-      role: 'CEO & Co-fondatrice',
-      bio: 'Ingénieure en énergie avec 15 ans d\'expérience dans les technologies vertes.',
+      name: 'Théo Wizman',
+      role: 'CEO & Co-fondateur',
+      bio: 'Expert en growth et marketing digital SEO/SEA',
       image: '/api/placeholder/300/300',
       social: {
         linkedin: '#',
         twitter: '#',
-        email: 'marie@revolt.com'
+        email: 'theo@revolt.com'
       }
     },
     {
-      name: 'Thomas Martin',
+      name: 'Achraf Zeroual',
+      role: 'CPO & Co-fondateur',
+      bio: 'Expert en gestion de projet et de produit',
+      image: '/api/placeholder/300/300',
+      social: {
+        linkedin: '#',
+        twitter: '#',
+        email: 'achraf@revolt.com'
+      }
+    },
+    {
+      name: 'Stanley Jamais',
       role: 'CTO & Co-fondateur',
-      bio: 'Expert en développement mobile et architecture cloud, ancien de Google.',
+      bio: 'Expert technique,développeur et architecte logiciel',
       image: '/api/placeholder/300/300',
       social: {
         linkedin: '#',
         twitter: '#',
-        email: 'thomas@revolt.com'
+        email: 'stanley@revolt.com'
       }
     },
     {
-      name: 'Sophie Chen',
-      role: 'Directrice Produit',
-      bio: 'Spécialiste UX/UI avec une passion pour l\'innovation dans la mobilité.',
+      name: 'Rémy Bataille',
+      role: 'Référent clientèle',
+      bio: 'Expert des retours critiques et analyste hors-pair',
       image: '/api/placeholder/300/300',
       social: {
         linkedin: '#',
         twitter: '#',
-        email: 'sophie@revolt.com'
-      }
-    },
-    {
-      name: 'Alexandre Rousseau',
-      role: 'Directeur Commercial',
-      bio: 'Expert en développement B2B et partenariats stratégiques.',
-      image: '/api/placeholder/300/300',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        email: 'alexandre@revolt.com'
+        email: 'remy@revolt.com'
       }
     }
   ]
@@ -532,7 +526,7 @@ const AboutPage = () => {
               <Button size="lg" variant="secondary">
                 Rejoindre la communauté
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary-600">
+              <Button size="lg" variant="outline" className="border-white text-primary-600 hover:bg-secondary-100 hover:text-primary-600">
                 Nous contacter
               </Button>
             </motion.div>

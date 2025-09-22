@@ -452,7 +452,7 @@ const ContactPage = () => {
                 <Phone className="mr-2 w-5 h-5" />
                 Appeler maintenant
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary-600">
+              <Button size="lg" variant="outline" className="border-white text-primary-600 hover:bg-secondary-100 hover:text-primary-600">
                 <MessageCircle className="mr-2 w-5 h-5" />
                 Chat en direct
               </Button>
